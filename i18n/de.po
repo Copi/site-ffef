@@ -12,7 +12,7 @@ msgstr ""
 
 msgid "gluon-config-mode:welcome"
 msgstr ""
-"Willkommen zum Einrichtungsassistenten für deinen neuen Erfurter "
+"Willkommen zum Einrichtungsassistenten für deinen neuen Sprötauer "
 "Freifunk-Knoten. Fülle das folgende Formular deinen Vorstellungen "
 "entsprechend aus und sende es ab."
 
@@ -43,4 +43,4 @@ msgstr ""
 "<p>Viel Spaß mit deinem Knoten und der Erkundung von Freifunk!</p>"
 
 msgid "gluon-luci-node-role:role:node"
-msgstr "Freifunk Erfurt Knoten"
+msgstr "Freifunk Sprötau Knoten"

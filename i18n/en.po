@@ -12,7 +12,7 @@ msgstr ""
 
 msgid "gluon-config-mode:welcome"
 msgstr ""
-"Welcome the the setup wizard of your new Freifunk Erfurt node. "
+"Welcome the the setup wizard of your new Freifunk Sprötau node. "
 "Please fill out the following form and transmit it."
 
 msgid "gluon-config-mode:pubkey"
@@ -41,4 +41,4 @@ msgstr ""
 "<p>Have fun with your node and exploring the Freifunk network!</p>"
 
 msgid "gluon-luci-node-role:role:node"
-msgstr "Freifunk Erfurt Node"
+msgstr "Freifunk Sprötau Node"

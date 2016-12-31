@@ -1,11 +1,11 @@
-# Freifunk Erfurt - Firmware builds
+# Freifunk Sprötau - Firmware builds
 
-### How to build the Gluon based Freifunk Erfurt Firmware
+### How to build the Gluon based Freifunk Sprötau Firmware
 
     git clone git://github.com/freifunk-gluon/gluon.git            # Get the official Gluon repository
     cd gluon
     git checkout v201x.x                                           # Switch to Gluon release if not master (see below)
-    git clone git://github.com/freifunkerfurt/site-ffef.git site   # Get the Freifunk Erfurt site repository
+    git clone git@github.com:Copi/site-ffef.git site               # Get the Freifunk Erfurt site repository
     cd site
     git checkout v201x.x                                           # Switch to site config release if not master (see below or tags)
     cd ..
@@ -26,7 +26,7 @@ For further informations about supported hardware and targets please see [Suppor
 
 Please see [the official Gluon documentation](http://gluon.readthedocs.io/en/latest/user/getting_started.html) for a detailed explanation of the build process. You can also consult [the official Gluon repository](https://github.com/freifunk-gluon/gluon) for additional informations.
 
-### Gluon releases used for specific Freifunk Erfurt Firmware builds
+### Gluon releases used for specific Freifunk Sprötau Firmware builds
 
 - 1.3.1: v2016.2.1
 - 1.3.0: v2016.2
