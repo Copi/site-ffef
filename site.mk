@@ -1,30 +1,29 @@
+##	GLUON_FEATURES
+#		Specify Gluon features/packages to enable;
+#		Gluon will automatically enable a set of packages
+#		depending on the combination of features listed
+
+GLUON_FEATURES := \
+	autoupdater \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	ebtables-limit-arp \
+	mesh-batman-adv-14 \
+	mesh-vpn-fastd \
+	respondd \
+	status-page \
+	web-advanced \
+	web-wizard
+
 GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-14 \
-	gluon-alfred \
-	gluon-autoupdater \
-	gluon-config-mode-hostname \
-	gluon-config-mode-autoupdater \
-	gluon-config-mode-mesh-vpn \
-	gluon-config-mode-geo-location \
-	gluon-config-mode-core \
-	gluon-config-mode-contact-info \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
-	gluon-web-admin \
-	gluon-web-autoupdater \
-	gluon-web-node-role \
-	gluon-web-network \
-	gluon-web-wifi-config \
-	gluon-mesh-vpn-fastd \
-	gluon-radvd \
-	gluon-respondd \
-	gluon-setup-mode \
-	gluon-status-page \
+        gluon-alfred \
+        gluon-web-node-role \
+        gluon-radvd \
 	iwinfo \
 	iptables \
 	haveged
 
-DEFAULT_GLUON_RELEASE := 1.3.1-$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 1.3.2-$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -37,4 +36,4 @@ GLUON_LANGS ?= de en
 GLUON_REGION := eu
 
 # Build images with ath10k-based drivers for IBSS (Ad-Hoc)
-GLUON_ATH10K_MESH := ibss
+GLUON_WLAN_MESH := ibss
