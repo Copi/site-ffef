@@ -28,6 +28,7 @@ Please see [the official Gluon documentation](http://gluon.readthedocs.io/en/lat
 
 ### Gluon releases used for specific Freifunk Sprötau Firmware builds
 
+- 1.3.2: v2017.1.8
 - 1.3.1: v2016.2.1
 - 1.3.0: v2016.2
 - 1.2:   v2016.1
